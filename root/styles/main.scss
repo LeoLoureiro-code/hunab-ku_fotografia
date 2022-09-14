@@ -1,0 +1,77 @@
+@import 'layout';
+@import 'variables';
+@import 'components';
+
+
+html *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $colorFondo;
+    font-family: $fuenteTitulo;
+}
+
+.logo{
+    height: 90px;
+    width: 120px;
+}
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1250px;
+    padding: 0 50px 0 50px ;
+}
+
+h2{
+    margin-top: 3rem;
+    font-size: $titulo;
+}
+
+.galeria-preview{
+    margin-top: 3rem;
+}
+
+.first-image{
+    grid-column: 2/5;
+}
+
+.fourth-image{
+    grid-column: 2/7;
+}
+
+img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.image-div{
+    border-radius: 10px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.image-div:hover{
+    transition: all .5s ease-in-out;
+    transform: scale(1.05);
+}
+
+.image-div + img{
+
+}
+
+footer{
+    color: $colorFondo;
+    text-align: center;
+    font-family: $fuenteTexto;
+    margin-top: 2rem;
+    padding: 30px;
+    background-color: $colorSeccionFondo;
+}

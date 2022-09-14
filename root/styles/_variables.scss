@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Raleway:ital,wght@0,400;0,600;1,400&display=swap');
+
+    /*
+        Fonts
+    */
+    $fuenteTitulo: 'Great Vibes', cursive;
+    $fuenteTexto: 'Raleway', sans-serif;
+
+
+    /*
+        Typography 
+    */
+
+    $texto: 1rem;
+    $titulo: 3rem;
+    $textoNav: 1.3rem;
+
+     /*
+        Colors
+    */
+
+    $colorFondo: #FBF9F9;
+    $colorTexto: #611D05;
+    $colorSeccionFondo: #856f5a;
+    $coloError: #DF0909;
+    $colorNav: rgba(133, 111, 90, 0.5);
+    $colorNavHover:rgb(133, 111, 90);
+
+    
+    /*
+        breakpoint
+    */
+
+    $mobile: 320px;
+    $tablet: 768px;
+    $laptop: 1024px;
